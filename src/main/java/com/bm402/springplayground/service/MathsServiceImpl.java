@@ -3,7 +3,7 @@ package com.bm402.springplayground.service;
 import org.springframework.stereotype.Service;
 
 @Service
-public class BasicOperationsServiceImpl implements BasicOperationsService {
+public class MathsServiceImpl implements MathsService {
 
     public double pow(double base, int exponent) {
         if (exponent < 0) {

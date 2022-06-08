@@ -1,5 +1,5 @@
 package com.bm402.springplayground.service;
 
-public interface BasicOperationsService {
+public interface MathsService {
     double pow(double base, int exponent);
 }
